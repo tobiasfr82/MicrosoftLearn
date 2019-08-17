@@ -18,7 +18,8 @@ using Windows.UI.Xaml.Navigation;
 namespace HelloWorld_UniversalWindow
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// Microsoft Learn lesson - Hello World Universal App & Debugging
+    /// https://docs.microsoft.com/sv-se/learn/modules/get-started-with-visual-studio-for-windows10-app-dev/2-debugging
     /// </summary>
     public sealed partial class MainPage : Page
     {
@@ -26,8 +27,23 @@ namespace HelloWorld_UniversalWindow
         {
             this.InitializeComponent();
             Hello();
+
+            int a = 1;
+            int b = 2;
+            int c = a + b;
+
+            if(c == 4)
+            {
+                // Success
+            }
+            else
+            {
+                // Fail
+            }
         }
 
+
+        // Outputs the message in the output window in Visual Studio.
         public void Hello()
         {
             System.Diagnostics.Debug.WriteLine("Hello World!");
