@@ -19,7 +19,8 @@ namespace HelloWorld_UniversalWindow
 {
     /// <summary>
     /// Microsoft Learn lesson - Hello World Universal App & Debugging
-    /// https://docs.microsoft.com/sv-se/learn/modules/get-started-with-visual-studio-for-windows10-app-dev/2-debugging
+    /// 1. https://docs.microsoft.com/sv-se/learn/modules/get-started-with-visual-studio-for-windows10-app-dev/2-debugging
+    /// 2. https://docs.microsoft.com/sv-se/learn/modules/get-started-with-visual-studio-for-windows10-app-dev/3-nuget
     /// </summary>
     public sealed partial class MainPage : Page
     {
