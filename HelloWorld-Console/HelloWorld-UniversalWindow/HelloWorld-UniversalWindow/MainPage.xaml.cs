@@ -27,13 +27,20 @@ namespace HelloWorld_UniversalWindow
         public MainPage()
         {
             this.InitializeComponent();
-            Hello();
+            Greetings();
+        }
+
+
+        // Outputs the message in the output window in Visual Studio.
+        public void Greetings()
+        {
+            System.Diagnostics.Debug.WriteLine("Hello World!");
 
             int a = 1;
             int b = 2;
             int c = a + b;
 
-            if(c == 4)
+            if (c == 4)
             {
                 // Success
             }
@@ -41,13 +48,6 @@ namespace HelloWorld_UniversalWindow
             {
                 // Fail
             }
-        }
-
-
-        // Outputs the message in the output window in Visual Studio.
-        public void Hello()
-        {
-            System.Diagnostics.Debug.WriteLine("Hello World!");
         }
     }
 }
